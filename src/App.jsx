@@ -6,25 +6,18 @@ import Policy from './components/Policy'
 import Footer from './components/Footer'
 import Contact from './components/Contact'
 import Gallery from './components/Gallery'
-import { useLocation, Routes, Route } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 
 function App() {
-  const location = useLocation();
+
 
   return (
     <>
     <Navbar/>
     <Home/>
-    <Routes location={location} key={location.pathname}>
-                <Route path='/home' element= {<Home/>}/>
-                <Route path="/about" element={ <About/>}/>
-                <Route path="/gallery" element={ <Gallery/>}/>
-                <Route path="/contact" element={ <Contact/>}/>
-                <Route path="/privacy" element={ <Policy/>}/>
-      </Routes>
-    
+
      <Footer/>
-     
+     <Outlet/>
     </>
   )
 }
