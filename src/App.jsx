@@ -14,6 +14,7 @@ function App() {
   return (
     <>
     <Navbar/>
+    <Home/>
     <Routes location={location} key={location.pathname}>
                 <Route path='/home' element= {<Home/>}/>
                 <Route path="/about" element={ <About/>}/>
