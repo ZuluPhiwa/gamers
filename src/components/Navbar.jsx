@@ -23,11 +23,11 @@ const Navbar = () => {
         
 
         <div className=' hidden md:flex shadow-md py-4 justify-between'>
-      <Link to='/home'><a className='px-4 font-bold text-base'>GamersHut</a></Link>  
+      <Link to='/gamers/home'><a className='px-4 font-bold text-base'>GamersHut</a></Link>  
         <ul className='flex  space-x-4 font-bold text-base'>
-         <Link to='/home'><li>Home</li></Link>   
-          <Link to='/about'><li>About</li></Link>  
-          <Link to='/contact'><li className='pr-4'>Contact</li></Link>  
+         <Link to='/gamers/home'><li>Home</li></Link>   
+          <Link to='/gamers/about'><li>About</li></Link>  
+          <Link to='/gamers/contact'><li className='pr-4'>Contact</li></Link>  
         </ul>
         <h1 className=' bg-slate-600 uppercase text-xs text-white font-bold rounded-full p-2 mr-4'>
         Sign In  
@@ -43,9 +43,9 @@ const Navbar = () => {
        Gamer's hut
         </h1>
             <ul className=' pt-24 font-bold text-white'>
-                <li className='mx-6 pb-4'> <Link to="/home" onClick={closeMenu}>Home</Link> </li>
-                <li className='mx-6 pb-4'><Link to="/about" onClick={closeMenu}>About</Link> </li>
-                <li className='mx-6 pb-4'><Link to="/contact" onClick={closeMenu}>Contact</Link> </li>
+                <li className='mx-6 pb-4'> <Link to="/gamers/home" onClick={closeMenu}>Home</Link> </li>
+                <li className='mx-6 pb-4'><Link to="/gamers/about" onClick={closeMenu}>About</Link> </li>
+                <li className='mx-6 pb-4'><Link to="/gamers/contact" onClick={closeMenu}>Contact</Link> </li>
                 
             </ul> 
             </div>
