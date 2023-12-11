@@ -11,6 +11,7 @@ import Policy from './components/Policy'
 
 import Contact from './components/Contact'
 import Gallery from './components/Gallery'
+import Footer from './components/Footer.jsx';
 
 const router = createBrowserRouter([
   {
@@ -37,7 +38,10 @@ const router = createBrowserRouter([
         path: "/gamers/policy",
         element: <Policy />,
       },
-   
+      {
+        path: "/gamers/footer",
+        element: <Footer />,
+      },
     ],
   },
 ]);
