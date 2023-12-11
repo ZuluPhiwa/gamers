@@ -2,7 +2,7 @@ import React from 'react'
 import Banner from '../assets/dualsense2.png'
 import LearnMore from './LearnMore'
 import WhyVisit from './WhyVisit'
-import Navbar from './components/Navbar'
+
 const Home = () => {
   return (
     <div className='  '>
