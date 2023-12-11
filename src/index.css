@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    background: linear-gradient(90deg, #E4EfE9, #93A5CF  );
+    height: 100vh;
+    font-family: 'poppins';
+    
+}
+
+@font-face {
+    font-family: "Moonlight";
+    src: url("../public/fonts/moonlight.otf");
+  }
+  
+  
+@font-face {
+    font-family: "Moonbold";
+    src: url("../public/fonts/moonbold.otf");
+  }
+  
+  @font-face {
+    font-family: "Calibri";
+    src: url("../public/fonts/calibri.ttf");
+  }
+
+  @font-face {
+    font-family: "Futur";
+    src: url("../public/fonts/futur.ttf");
+  }
+  @font-face {
+    font-family: "Segoe";
+    src: url("../public/fonts/segoe.ttf");
+  }
+
+  @font-face {
+    font-family: "Helvetica";
+    src: url("../public/fonts/Helvetica.ttf");
+  }
+
+  @font-face {
+    font-family: "Helvetica-bold";
+    src: url("../public/fonts/Helvetica-Bold.ttf");
+  }
+
+  @font-face {
+    font-family: "Roboto";
+    src: url("../public/fonts/Roboto.ttf");
+  }
+
+  @font-face {
+    font-family: "Poppins";
+    src: url("../public/fonts/Poppins.ttf");
+  }
+
+  @font-face {
+    font-family: "Master";
+    src: url("../public/fonts/Master.otf");
+  }
+
+  @font-face {
+    font-family: "Poppins-ExtraBold";
+    src: url("../public/fonts/Poppins-ExtraBold.ttf");
+  }
+
+  @font-face {
+    font-family: "Poppins-ExtraBold";
+    src: url("../public/fonts/Poppinss.ttf");
+  }
