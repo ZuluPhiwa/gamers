@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Footer from './Footer'
 const Policy = () => {
   return (
     <div>
@@ -113,6 +113,8 @@ Another part of our priority is adding protection for children while using the i
 
 Gamers Hut  does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our Gamers Hut, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records.
         </p>
+
+        <Footer/>
     </div>
   )
 }

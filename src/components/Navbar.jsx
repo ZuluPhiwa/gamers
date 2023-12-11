@@ -23,9 +23,9 @@ const Navbar = () => {
         
 
         <div className=' hidden md:flex shadow-md py-4 justify-between'>
-      <Link to='/gamers/home'><a className='px-4 font-bold text-base'>GamersHut</a></Link>  
+      <Link to='/gamers/'><a className='px-4 font-bold text-base'>GamersHut</a></Link>  
         <ul className='flex  space-x-4 font-bold text-base'>
-         <Link to='/gamers/home'><li>Home</li></Link>   
+         <Link to='/gamers/'><li>Home</li></Link>   
           <Link to='/gamers/about'><li>About</li></Link>  
           <Link to='/gamers/contact'><li className='pr-4'>Contact</li></Link>  
         </ul>
@@ -43,7 +43,7 @@ const Navbar = () => {
        Gamer's hut
         </h1>
             <ul className=' pt-24 font-bold text-white'>
-                <li className='mx-6 pb-4'> <Link to="/gamers/home" onClick={closeMenu}>Home</Link> </li>
+                <li className='mx-6 pb-4'> <Link to="/gamers/" onClick={closeMenu}>Home</Link> </li>
                 <li className='mx-6 pb-4'><Link to="/gamers/about" onClick={closeMenu}>About</Link> </li>
                 <li className='mx-6 pb-4'><Link to="/gamers/contact" onClick={closeMenu}>Contact</Link> </li>
                 
