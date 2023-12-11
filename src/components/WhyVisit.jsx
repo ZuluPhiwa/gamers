@@ -1,6 +1,6 @@
 import React from 'react'
 import Tournament from '../assets/banner8.jpg'
-import Footer from './Footer'
+
 const WhyVisit = () => {
   return (
     <div className=' pt-6 mx-3 sm:mx-8 sm:pt-12'>
@@ -39,7 +39,7 @@ And the best part? You can start playing for as little as E10!
 
         </div>
 
-<Footer/>
+
     </div>
   )
 }

@@ -20,7 +20,7 @@ const Footer = () => {
     <Link to='/gamers/about'><li className='m-4'>About</li> </Link>
     <Link to='/gamers/contact'><li className='m-4'>Contact</li></Link>
     <Link to='/gamers/gallery'>   <li className='m-4'>Gallery</li> </Link>
-    <Link to='/gamers/privacy'>   <li className='m-4'>Privacy Policy</li> </Link>
+    <Link to='/gamers/policy'>   <li className='m-4'>Privacy Policy</li> </Link>
     </ul>
  </div>
 
